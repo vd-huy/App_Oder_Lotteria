@@ -13,10 +13,20 @@
         android:theme="@style/Theme.App_Oder_Lotteria"
         tools:targetApi="31">
         <activity
+<<<<<<< Updated upstream
             android:name=".dangky"
             android:exported="false" />
         <activity
             android:name=".login"
+=======
+            android:name=".DatHang"
+            android:exported="false" />
+        <activity
+            android:name=".TrangChu"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+>>>>>>> Stashed changes
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
